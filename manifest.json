@@ -53,6 +53,208 @@
       ],
       "ast": [
         "aggregate/ast/17d813385f50ec59d58fdfe1576f758ed3daaa4e/chunk-001.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/17d813385f50ec59d58fdfe1576f758ed3daaa4e.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "anthropic",
+          "ecosystem": "PYPI",
+          "version": "0.47.0",
+          "githubOrg": "anthropics",
+          "githubRepo": "anthropic-sdk-python",
+          "githubCommit": "771b6f953e10892f82c5a18f1d5bd5e3c5504a39",
+          "githubTag": "v0.47.0",
+          "githubUrl": "https://github.com/anthropics/anthropic-sdk-python",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "dataclasses-json",
+          "ecosystem": "PYPI",
+          "version": "0.6.1",
+          "githubOrg": "lidatong",
+          "githubRepo": "dataclasses-json",
+          "githubCommit": "5207d26051c1f387892e1559ef5fa44ef7e611d7",
+          "githubTag": "v0.6.1",
+          "githubUrl": "https://github.com/lidatong/dataclasses-json",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "datasets",
+          "ecosystem": "PYPI",
+          "version": "3.5.0",
+          "githubOrg": "huggingface",
+          "githubRepo": "datasets",
+          "githubCommit": "0b5998ac62f08e358f8dcc17ec6e2f2a5e9450b6",
+          "githubTag": "3.5.0",
+          "githubUrl": "https://github.com/huggingface/datasets",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "docker",
+          "ecosystem": "PYPI",
+          "version": "7.1.0",
+          "githubOrg": "docker",
+          "githubRepo": "docker-py",
+          "githubCommit": "a3652028b1ead708bd9191efb286f909ba6c2a49",
+          "githubTag": "7.1.0",
+          "githubUrl": "https://github.com/docker/docker-py",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "docker-pycreds",
+          "ecosystem": "PYPI",
+          "version": "0.4.0",
+          "githubOrg": "shin-",
+          "githubRepo": "dockerpy-creds",
+          "githubCommit": "1986115cee90b3cbe3994f2da730bfe401cd861f",
+          "githubTag": "0.4.0",
+          "githubUrl": "https://github.com/shin-/dockerpy-creds",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "jsonschema",
+          "ecosystem": "PYPI",
+          "version": "4.23.0",
+          "githubOrg": "python-jsonschema",
+          "githubRepo": "jsonschema",
+          "githubCommit": "cfe8a4071672b9652c8f083faed1c4ffa7d67705",
+          "githubTag": "v4.23.0",
+          "githubUrl": "https://github.com/python-jsonschema/jsonschema",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "numpy",
+          "ecosystem": "PYPI",
+          "version": "2.2.4",
+          "githubOrg": "numpy",
+          "githubRepo": "numpy",
+          "githubCommit": "3b377854e8b1a55f15bda6f1166fe9954828231b",
+          "githubTag": "v2.2.4",
+          "githubUrl": "https://github.com/numpy/numpy",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "openai",
+          "ecosystem": "PYPI",
+          "version": "1.59.",
+          "githubOrg": "openai",
+          "githubRepo": "openai-python",
+          "githubUrl": "https://github.com/openai/openai-python",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "pexpect",
+          "ecosystem": "PYPI",
+          "version": "4.9.0",
+          "githubOrg": "pexpect",
+          "githubRepo": "pexpect",
+          "githubUrl": "https://github.com/pexpect/pexpect",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "pre-commit",
+          "ecosystem": "PYPI",
+          "version": "4.2.0",
+          "githubOrg": "pre-commit",
+          "githubRepo": "pre-commit",
+          "githubCommit": "aa48766b888990e7b118d12cf757109d96e65a7e",
+          "githubTag": "v4.2.0",
+          "githubUrl": "https://github.com/pre-commit/pre-commit",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "prompt-toolkit",
+          "ecosystem": "PYPI",
+          "version": "3.0.50",
+          "githubOrg": "prompt-toolkit",
+          "githubRepo": "python-prompt-toolkit",
+          "githubCommit": "165258d2f3ae594b50f16c7b50ffb06627476269",
+          "githubTag": "3.0.50",
+          "githubUrl": "https://github.com/prompt-toolkit/python-prompt-toolkit",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "pyright",
+          "ecosystem": "PYPI",
+          "version": "1.1.398",
+          "githubOrg": "RobertCraigie",
+          "githubRepo": "pyright-python",
+          "githubCommit": "e4cccb9f01fa52b4e4013595a3131c25ad5d0c59",
+          "githubTag": "v1.1.398",
+          "githubUrl": "https://github.com/RobertCraigie/pyright-python",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "pytest",
+          "ecosystem": "PYPI",
+          "version": "7.4.3",
+          "githubOrg": "pytest-dev",
+          "githubRepo": "pytest",
+          "githubCommit": "23906106968eb95afbd61adfbc7bbb795fc9aaa9",
+          "githubTag": "v7.4.3",
+          "githubUrl": "https://github.com/pytest-dev/pytest",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "rich",
+          "ecosystem": "PYPI",
+          "version": "13.9.4",
+          "githubOrg": "Textualize",
+          "githubRepo": "rich",
+          "githubCommit": "43d3b04725ab9731727fb1126e35980c62f32377",
+          "githubTag": "v13.9.4",
+          "githubUrl": "https://github.com/Textualize/rich",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "termcolor",
+          "ecosystem": "PYPI",
+          "version": "2.5.0",
+          "githubOrg": "termcolor",
+          "githubRepo": "termcolor",
+          "githubCommit": "2654f7f2ae120aa2be69414d161867ec6ebf6f0a",
+          "githubTag": "2.5.0",
+          "githubUrl": "https://github.com/termcolor/termcolor",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "tqdm",
+          "ecosystem": "PYPI",
+          "version": "4.70.1",
+          "githubOrg": "tqdm",
+          "githubRepo": "tqdm",
+          "githubCommit": "9cf5a12b1f955468a17f0ba3c59092b23e4258ac",
+          "githubTag": "v4.70.1",
+          "githubUrl": "https://github.com/tqdm/tqdm",
+          "source": "lsp",
+          "install_path": "/home/runner/.local/share/uv/tools/repolex/lib/python3.14/site-packages/tqdm/std.py"
+        },
+        {
+          "packageName": "huggingface-hub",
+          "ecosystem": "PYPI",
+          "version": "2.0.0",
+          "githubOrg": "huggingface",
+          "githubRepo": "huggingface_hub",
+          "githubCommit": "97c5f5f2030c2df01b60548f7d357970a106cd7d",
+          "githubTag": "v2.0.0",
+          "githubUrl": "https://github.com/huggingface/huggingface_hub",
+          "source": "lsp",
+          "raw_name": "huggingface_hub",
+          "install_path": "/home/runner/.local/share/uv/tools/repolex/lib/python3.14/site-packages/huggingface_hub/__init__.py"
+        },
+        {
+          "packageName": "typing-extensions",
+          "ecosystem": "PYPI",
+          "version": "4.16.0",
+          "githubOrg": "python",
+          "githubRepo": "typing_extensions",
+          "githubCommit": "f29cd28d8ed7642cafb1d18daf5aa41be6a5c0aa",
+          "githubTag": "4.16.0",
+          "githubUrl": "https://github.com/python/typing_extensions",
+          "source": "lsp",
+          "raw_name": "typing_extensions.py",
+          "install_path": "/home/runner/.local/share/uv/tools/repolex/lib/python3.14/site-packages/typing_extensions.py"
+        }
       ]
     }
   ],
