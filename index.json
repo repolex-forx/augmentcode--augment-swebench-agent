@@ -1,0 +1,11 @@
+{
+  "org": "augmentcode",
+  "repo": "augment-swebench-agent",
+  "versions": [
+    {
+      "commit": "17d813385f50ec59d58fdfe1576f758ed3daaa4e",
+      "tag": "main",
+      "parsed_at": "2026-09-30T19:09:31.473645+00:00"
+    }
+  ]
+}
