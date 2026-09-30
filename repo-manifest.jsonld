@@ -8,8 +8,9 @@
     {
       "@id": "https://repolex.ai/r/augmentcode/augment-swebench-agent/commit/17d813385f50ec59d58fdfe1576f758ed3daaa4e",
       "git:hexsha": "17d813385f50ec59d58fdfe1576f758ed3daaa4e",
-      "repolex:parseStatus": "enrich_complete",
-      "git:tagName": "main"
+      "repolex:parseStatus": "parsed",
+      "git:tagName": "main",
+      "repolex:parsedAt": "2026-09-30T19:09:31.409593+00:00"
     }
   ]
 }
