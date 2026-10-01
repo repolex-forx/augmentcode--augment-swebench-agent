@@ -1,0 +1,20 @@
+[2026-10-01T07:23:09Z] === ENRICH ITERATION 2 START | repo=augmentcode/augment-swebench-agent sha=17d81338 ===
+[2026-10-01T07:23:09Z] [iter=2] PHASE START: enrich repo=augmentcode/augment-swebench-agent sha=17d81338 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/17d81338-enrich-iter-002.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/17d813385f50ec59d58fdfe1576f758ed3daaa4e.nq.gz
+[2026-10-01T07:23:19Z] [iter=2] Step 1: Loading AST into disk-backed store mem_mb=80 MB
+[2026-10-01T07:23:24Z] [iter=2] AST store loaded triples=233801 load_secs=5 mem_mb=450 MB
+[2026-10-01T07:23:24Z] [iter=2] Step 2: Finding LSP targets mem_mb=450 MB
+[2026-10-01T07:23:25Z] [iter=2] LSP targets found call_sites=1662 imports=158 extends=20 implements=0 secs=0
+[2026-10-01T07:23:25Z] [iter=2] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=450 MB
+[2026-10-01T07:23:26Z] [iter=2] Position index built positions=15805 nodes_with_types=20810 secs=1 mem_mb=450 MB
+[2026-10-01T07:23:26Z] [iter=2] Step 3: Starting LSP resolution mem_mb=450 MB already_completed_types=[] already_completed_files=0
+[2026-10-01T07:23:26Z] [iter=2] Resolving target type target_type=call_site count=1662
+[2026-10-01T07:23:41Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=0.5 files_done=4 resolved=213 errors=144 current=tools/str_replace_tool.py
+[2026-10-01T07:24:12Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=1.0 files_done=9 resolved=543 errors=505 current=merge_shards.py
+[2026-10-01T07:24:33Z] [iter=2] Target type resolved target_type=call_site resolved=888 errors=619 secs=67 mem_mb=450 MB
+[2026-10-01T07:24:33Z] [iter=2] Resolving target type target_type=import_statement count=158
+[2026-10-01T07:24:37Z] [iter=2] Target type resolved target_type=import_statement resolved=123 errors=0 secs=4 mem_mb=450 MB
+[2026-10-01T07:24:37Z] [iter=2] Resolving target type target_type=extends_clause count=20
+[2026-10-01T07:24:38Z] [iter=2] Target type resolved target_type=extends_clause resolved=14 errors=0 secs=1 mem_mb=450 MB
+[2026-10-01T07:24:41Z] [iter=2] Step 5: Writing final enrichment file triples=15156
+[2026-10-01T07:24:41Z] [iter=2] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/17d813385f50ec59d58fdfe1576f758ed3daaa4e.nq.gz size_kb=280
+[2026-10-01T07:24:41Z] [iter=2] PHASE END: enrich elapsed_s=92 elapsed_min=1.5 total_triples=15156
